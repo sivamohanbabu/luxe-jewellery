@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxe Jewelry - Premium Collections</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>✨ LUXE</h1>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#collections">Collections</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle">☰</button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2>Elegance Defined</h2>
+            <p>Discover our exquisite jewelry collection</p>
+            <button class="cta-btn">Shop Now</button>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="collections">
+        <div class="container">
+            <h2 class="section-title">Our Collections</h2>
+            
+            <div class="products-grid">
+                <!-- Product Card 1 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./image.png" alt="Gold Ring">
+                        <span class="badge">Featured</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Gold Ring</h3>
+                        <p class="description">Elegant 18K gold ring with diamond</p>
+                        <p class="price">$2,499</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product Card 2 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./image.png" alt="Diamond Necklace">
+                        <span class="badge">Sale</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Diamond Necklace</h3>
+                        <p class="description">Premium diamond pendant necklace</p>
+                        <p class="price">$3,899</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product Card 3 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./image.png" alt="Pearl Earrings">
+                    </div>
+                    <div class="card-content">
+                        <h3>Pearl Earrings</h3>
+                        <p class="description">Lustrous pearl drop earrings</p>
+                        <p class="price">$1,299</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product Card 4 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./image.png" alt="Gemstone Bracelet">
+                    </div>
+                    <div class="card-content">
+                        <h3>Gemstone Bracelet</h3>
+                        <p class="description">Colorful gemstone tennis bracelet</p>
+                        <p class="price">$1,799</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product Card 5 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./image.png" alt="Silver Brooch">
+                    </div>
+                    <div class="card-content">
+                        <h3>Silver Brooch</h3>
+                        <p class="description">Vintage-inspired silver brooch</p>
+                        <p class="price">$899</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product Card 6 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./image.png" alt="Gold Anklet">
+                    </div>
+                    <div class="card-content">
+                        <h3>Gold Anklet</h3>
+                        <p class="description">Delicate 14K gold anklet</p>
+                        <p class="price">$599</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Luxe</h2>
+            <p>Crafting timeless elegance since 1995. Every piece is carefully curated and handpicked to ensure the highest quality for our valued customers.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container footer-content">
+            <div class="footer-section">
+                <h4>About</h4>
+                <p>Premium jewelry for every occasion</p>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: info@luxejewelry.com</p>
+                <p>Phone: +1 (555) 123-4567</p>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <p>Instagram | Facebook | Twitter</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Luxe Jewelry. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Chatbot Widget -->
+    <div class="chatbot-container">
+        <div class="chatbot-widget" id="chatbotWidget">
+            <!-- Chat Header -->
+            <div class="chatbot-header">
+                <div class="chatbot-title">
+                    <span>💬 Luxe Assistant</span>
+                </div>
+                <button class="chatbot-close" id="closeChatbot">&times;</button>
+            </div>
+
+            <!-- Chat Messages -->
+            <div class="chatbot-messages" id="chatbotMessages">
+                <div class="message bot-message">
+                    <p>Hello! 👋 Welcome to Luxe Jewelry. How can I help you today?</p>
+                </div>
+            </div>
+
+            <!-- Chat Input Section -->
+            <div class="chatbot-input-section" id="inputSection">
+                <!-- Product Selection -->
+                <div class="input-step" id="productStep">
+                    <p class="step-title">Select an item to enquire:</p>
+                    <div class="product-buttons">
+                        <button class="product-btn" onclick="selectProduct('Gold Ring', '2,499')">Gold Ring - $2,499</button>
+                        <button class="product-btn" onclick="selectProduct('Diamond Necklace', '3,899')">Diamond Necklace - $3,899</button>
+                        <button class="product-btn" onclick="selectProduct('Pearl Earrings', '1,299')">Pearl Earrings - $1,299</button>
+                        <button class="product-btn" onclick="selectProduct('Gemstone Bracelet', '1,799')">Gemstone Bracelet - $1,799</button>
+                        <button class="product-btn" onclick="selectProduct('Silver Brooch', '899')">Silver Brooch - $899</button>
+                        <button class="product-btn" onclick="selectProduct('Gold Anklet', '599')">Gold Anklet - $599</button>
+                    </div>
+                </div>
+
+                <!-- Customer Details Form -->
+                <div class="input-step" id="detailsStep" style="display: none;">
+                    <p class="step-title">Please share your details:</p>
+                    <input type="text" id="customerName" placeholder="Your Name" class="chatbot-input">
+                    <input type="email" id="customerEmail" placeholder="Your Email" class="chatbot-input">
+                    <input type="tel" id="customerPhone" placeholder="Your Phone" class="chatbot-input">
+                    <button class="submit-btn" onclick="submitEnquiry()">Submit Enquiry</button>
+                    <button class="back-btn" onclick="goBack()">Back</button>
+                </div>
+
+                <!-- Confirmation -->
+                <div class="input-step" id="confirmationStep" style="display: none;">
+                    <div class="confirmation-message">
+                        <p style="font-size: 14px; margin-bottom: 15px;">Thank you! <span id="selectedProductName"></span></p>
+                        <p style="font-size: 18px; color: #d4af37; margin: 15px 0; font-weight: bold;">📞 Call us now</p>
+                        <p style="font-size: 24px; font-weight: bold; color: #333; letter-spacing: 1px;">9346767185</p>
+                        <p style="font-size: 12px; color: #666; margin-top: 10px;">Our team will assist you with booking and provide more details.</p>
+                    </div>
+                    <button class="new-enquiry-btn" onclick="resetChatbot()">New Enquiry</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Chatbot Toggle Button -->
+        <button class="chatbot-toggle" id="chatbotToggle">
+            <span class="chatbot-icon">💬</span>
+        </button>
+    </div>
+
+    <script>
+        // ============ Mobile Menu Toggle ============
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // ============ Chatbot Functionality ============
+        const chatbotToggle = document.getElementById('chatbotToggle');
+        const chatbotWidget = document.getElementById('chatbotWidget');
+        const closeChatbot = document.getElementById('closeChatbot');
+        let selectedProduct = '';
+        let selectedPrice = '';
+
+        // Toggle chatbot visibility
+        chatbotToggle.addEventListener('click', () => {
+            chatbotWidget.classList.toggle('active');
+            if (chatbotWidget.classList.contains('active')) {
+                chatbotToggle.style.display = 'none';
+            }
+        });
+
+        closeChatbot.addEventListener('click', () => {
+            chatbotWidget.classList.remove('active');
+            chatbotToggle.style.display = 'flex';
+        });
+
+        // Select product
+        function selectProduct(productName, price) {
+            selectedProduct = productName;
+            selectedPrice = price;
+
+            // Add user message
+            addMessage(productName, 'user-message');
+
+            // Show details form
+            document.getElementById('productStep').style.display = 'none';
+            document.getElementById('detailsStep').style.display = 'block';
+
+            // Add bot message
+            setTimeout(() => {
+                addMessage(`Great choice! You selected ${productName} - $${price}. Please share your details so we can help you book.`, 'bot-message');
+            }, 300);
+        }
+
+        // Submit enquiry
+        function submitEnquiry() {
+            const name = document.getElementById('customerName').value;
+            const email = document.getElementById('customerEmail').value;
+            const phone = document.getElementById('customerPhone').value;
+
+            if (!name || !email || !phone) {
+                alert('Please fill in all fields');
+                return;
+            }
+
+            // Add user message
+            addMessage(`Name: ${name}\nEmail: ${email}\nPhone: ${phone}`, 'user-message');
+
+            // Show confirmation step
+            document.getElementById('detailsStep').style.display = 'none';
+            document.getElementById('confirmationStep').style.display = 'block';
+            document.getElementById('selectedProductName').textContent = selectedProduct;
+
+            // Add bot message
+            setTimeout(() => {
+                addMessage(`Perfect, ${name}! Here's our contact number to book your ${selectedProduct}.`, 'bot-message');
+            }, 300);
+
+            // Clear form
+            document.getElementById('customerName').value = '';
+            document.getElementById('customerEmail').value = '';
+            document.getElementById('customerPhone').value = '';
+        }
+
+        // Go back to product selection
+        function goBack() {
+            document.getElementById('detailsStep').style.display = 'none';
+            document.getElementById('productStep').style.display = 'block';
+            selectedProduct = '';
+            selectedPrice = '';
+        }
+
+        // Reset chatbot
+        function resetChatbot() {
+            document.getElementById('confirmationStep').style.display = 'none';
+            document.getElementById('productStep').style.display = 'block';
+            const messagesDiv = document.getElementById('chatbotMessages');
+            messagesDiv.innerHTML = '<div class="message bot-message"><p>Hello! 👋 Welcome to Luxe Jewelry. How can I help you today?</p></div>';
+            selectedProduct = '';
+            selectedPrice = '';
+        }
+
+        // Add message to chat
+        function addMessage(text, className) {
+            const messagesDiv = document.getElementById('chatbotMessages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${className}`;
+            messageDiv.innerHTML = `<p>${text.replace(/\n/g, '<br>')}</p>`;
+            messagesDiv.appendChild(messageDiv);
+            messagesDiv.scrollTop = messagesDiv.scrollHeight;
+        }
+    </script>
+</body>
+</html>
