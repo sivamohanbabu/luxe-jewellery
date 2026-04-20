@@ -36,7 +36,7 @@ body {
 
 .logo h1 {
     font-size: 24px;
-    color: #d4af37;
+    color: rgb(131, 40, 44);
     font-weight: bold;
     letter-spacing: 2px;
 }
@@ -55,7 +55,7 @@ body {
 }
 
 .navbar a:hover {
-    color: #d4af37;
+    color: rgb(131, 40, 44);
 }
 
 .menu-toggle {
@@ -69,7 +69,7 @@ body {
 
 /* ==================== Hero Section ==================== */
 .hero {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, rgb(131, 40, 44) 0%, rgb(100, 30, 35) 100%);
     color: white;
     padding: 120px 20px;
     text-align: center;
@@ -92,7 +92,7 @@ body {
 }
 
 .cta-btn {
-    background-color: #d4af37;
+    background-color: rgb(131, 40, 44);
     color: #333;
     padding: 15px 40px;
     border: none;
@@ -104,7 +104,7 @@ body {
 }
 
 .cta-btn:hover {
-    background-color: #f0c842;
+    background-color: rgb(131, 40, 44);
     transform: translateY(-2px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
@@ -132,7 +132,7 @@ body {
     transform: translateX(-50%);
     width: 60px;
     height: 3px;
-    background-color: #d4af37;
+    background-color: rgb(131, 40, 44);
 }
 
 /* Responsive Product Grid */
@@ -183,7 +183,7 @@ body {
     position: absolute;
     top: 12px;
     right: 12px;
-    background-color: #d4af37;
+    background-color: rgb(131, 40, 44);
     color: #333;
     padding: 6px 12px;
     border-radius: 20px;
@@ -215,7 +215,7 @@ body {
 .price {
     font-size: 22px;
     font-weight: bold;
-    color: #d4af37;
+    color: rgb(131, 40, 44);
     margin-bottom: 15px;
 }
 
@@ -232,8 +232,8 @@ body {
 }
 
 .add-to-cart:hover {
-    background-color: #d4af37;
-    color: #333;
+    background-color: rgb(131, 40, 44);
+    color: white;
 }
 
 /* ==================== About Section ==================== */
@@ -267,7 +267,7 @@ body {
 
 .footer-section h4 {
     margin-bottom: 15px;
-    color: #d4af37;
+    color: rgb(131, 40, 44);
     font-size: 16px;
 }
 
@@ -464,7 +464,7 @@ body {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-color: #d4af37;
+    background-color: rgb(131, 40, 44);
     color: #333;
     border: none;
     cursor: pointer;
@@ -505,7 +505,7 @@ body {
 }
 
 .chatbot-header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, rgb(131, 40, 44) 0%, rgb(100, 30, 35) 100%);
     color: white;
     padding: 16px 20px;
     border-radius: 12px 12px 0 0;
@@ -633,9 +633,9 @@ body {
 }
 
 .product-btn:hover {
-    background-color: #d4af37;
+    background-color: rgb(131, 40, 44);
     color: white;
-    border-color: #d4af37;
+    border-color: rgb(131, 40, 44);
     transform: translateX(2px);
 }
 
@@ -651,8 +651,8 @@ body {
 
 .chatbot-input:focus {
     outline: none;
-    border-color: #667eea;
-    box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.1);
+    border-color: rgb(131, 40, 44);
+    box-shadow: 0 0 0 2px rgba(131, 40, 44, 0.1);
 }
 
 .submit-btn,
@@ -669,13 +669,13 @@ body {
 }
 
 .submit-btn {
-    background-color: #667eea;
+    background-color: rgb(131, 40, 44);
     color: white;
     margin-top: 8px;
 }
 
 .submit-btn:hover {
-    background-color: #5568d3;
+    background-color: rgb(100, 30, 35);
 }
 
 .back-btn {
@@ -689,13 +689,13 @@ body {
 }
 
 .new-enquiry-btn {
-    background-color: #667eea;
+    background-color: rgb(131, 40, 44);
     color: white;
     margin-top: 12px;
 }
 
 .new-enquiry-btn:hover {
-    background-color: #5568d3;
+    background-color: rgb(100, 30, 35);
 }
 
 .confirmation-message {
